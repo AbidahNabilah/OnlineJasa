@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="#4CAF50"
+    android:background="#E91E63"
     android:gravity="bottom"
     android:paddingStart="15dp"
     android:paddingEnd="15dp"
@@ -14,14 +14,14 @@
         android:id="@+id/imageView"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        app:srcCompat="@mipmap/ic_launcher_round"
+        app:srcCompat="@drawable/graduation"
         android:layout_marginBottom="10dp"
         android:contentDescription="@string/image_header" />
     <TextView
         android:id="@+id/tvNamaHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nama_header"
+        android:text="Abidah Nabilah"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:textSize="18sp"/>
@@ -30,7 +30,7 @@
         android:id="@+id/tvEmailHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email_header"
+        android:text="abdhnabilah@gmail.com"
         android:textColor="@android:color/white"
         android:textSize="16sp"/>
 
